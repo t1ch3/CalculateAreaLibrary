@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateAreaLibrary", "CalculateAreaLibrary\CalculateAreaLibrary.csproj", "{637E22EC-16A5-4490-9FF5-5F7605B7E619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateAreaLibrary_UnitTest", "CalculateAreaLibrary_UnitTest\CalculateAreaLibrary_UnitTest.csproj", "{096EC05C-5B21-4B80-BD3D-B205DB502948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{5AA57CCB-6E55-4CDC-898B-1313437AE350}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{4AE8DA43-6FC0-4E51-BD65-6FC359636968}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\CREATE_INSERT.sql = ..\..\CREATE_INSERT.sql
+		..\..\SELECT.sql = ..\..\SELECT.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{637E22EC-16A5-4490-9FF5-5F7605B7E619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637E22EC-16A5-4490-9FF5-5F7605B7E619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637E22EC-16A5-4490-9FF5-5F7605B7E619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637E22EC-16A5-4490-9FF5-5F7605B7E619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096EC05C-5B21-4B80-BD3D-B205DB502948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096EC05C-5B21-4B80-BD3D-B205DB502948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096EC05C-5B21-4B80-BD3D-B205DB502948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096EC05C-5B21-4B80-BD3D-B205DB502948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA57CCB-6E55-4CDC-898B-1313437AE350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA57CCB-6E55-4CDC-898B-1313437AE350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA57CCB-6E55-4CDC-898B-1313437AE350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA57CCB-6E55-4CDC-898B-1313437AE350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A0ED4D1-895A-4970-9B36-CE5613C568B5}
+	EndGlobalSection
+EndGlobal
